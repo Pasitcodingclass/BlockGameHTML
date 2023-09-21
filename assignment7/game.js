@@ -17,7 +17,7 @@ function timeStart(){
 	var second = min*60; 
 	var x = document.getElementById("clock");
 	//setting timer using setInterval function
-	timer = setinterval(timeCount, TIMER_TICK);
+	timer = setInterval(timeCount, TIMER_TICK);
 	
 	function timeCount(){
 		var allbox = document.querySelectorAll("#layer div");
