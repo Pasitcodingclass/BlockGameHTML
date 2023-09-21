@@ -15,7 +15,7 @@ function timeStart(){
 	var timer = null;
 	var min = 0.5; // 0.5 minute
 	var second = min*60; 
-	var x = document.getElementById('clock');
+	var x = document.getElementById("clock");
 	//setting timer using setInterval function
 	timer = setinterval(timeCount, TIMER_TICK);
 	
