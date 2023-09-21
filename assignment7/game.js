@@ -27,7 +27,7 @@ function timeStart(){
 		var Zero = 0;
 		x.innerHTML = second;
 
-		if(allbox.length == Zero){
+		if(allbox.length === Zero){
 			alert("You win")
 			clearInterval(timer);
 			timer = null;
