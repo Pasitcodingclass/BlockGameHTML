@@ -54,6 +54,7 @@ function addBox(){
 		var tempbox = document.createElement("div");
 		tempbox.className = "square";
 		tempbox.id = "box"+i;
+		tempbox.classList.add(colorDrop);
 		tempbox.style.left = Math.random() * (500 - 25) + "px";
 		tempbox.style.top = Math.random() * (500 - 25) + "px";
 		//add element to HTML node
